@@ -1,0 +1,20 @@
+{
+  "name": "@lxjx/preset-config",
+  "description": "config of babel, eslint, prettier, editor, etc. for lixianjie",
+  "version": "0.0.2",
+  "main": "index.js",
+  "author": "lixianjie",
+  "license": "MIT",
+  "scripts": {
+    "lint": "npm run lint:js && npm run lint:prettier",
+    "lint:js": "eslint ./example --ext .js,.jsx,.ts,.tsx",
+    "lint:prettier": "check-prettier lint"
+  },
+  "dependencies": {
+    "@umijs/fabric": "^2.0.4",
+    "prettier": "^1.19.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
