@@ -1,14 +1,14 @@
 {
   "name": "@lxjx/preset-config",
   "description": "config for lixianjie, includes babel, eslint, prettier, editor, etc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "author": "lixianjie",
   "license": "MIT",
   "scripts": {
     "lint": "npm run lint:js && npm run lint:prettier",
     "lint:js": "eslint ./example --ext .js,.jsx,.ts,.tsx",
-    "lint:prettier": "check-prettier lint"
+    "lint:prettier": "prettier --check ./example/**/*"
   },
   "dependencies": {
     "@umijs/fabric": "^2.0.4",
