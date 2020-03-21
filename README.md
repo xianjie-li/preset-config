@@ -1,4 +1,4 @@
-config of babel, eslint, prettier, editor, etc. for lixianjie
+config for lixianjie, includes babel, eslint, prettier, editor, etc
 
 `.eslintrc.js`
 ```js
