@@ -11,6 +11,8 @@ module.exports = {
     // 会误伤@
     'import/no-unresolved': 'off',
     
+    'no-console': 'off',
+    
     'no-unused-expressions': 'off',
     // 必须要new
     'no-new': 'off',
