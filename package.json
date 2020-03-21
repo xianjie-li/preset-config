@@ -1,7 +1,7 @@
 {
   "name": "@lxjx/preset-config",
   "description": "config for lixianjie, includes babel, eslint, prettier, editor, etc",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "author": "lixianjie",
   "license": "MIT",
