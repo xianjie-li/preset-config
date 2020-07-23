@@ -1,5 +1,5 @@
 module.exports = {
-  extends: [require.resolve('@umijs/fabric/dist/eslint.js')],
+  extends: [require.resolve('@umijs/fabric/dist/eslint')],
 
   globals: {},
 
@@ -10,9 +10,9 @@ module.exports = {
     indent: 'off',
     // 会误伤@
     'import/no-unresolved': 'off',
-    
+
     'no-console': 'off',
-    
+
     'no-unused-expressions': 'off',
     // 必须要new
     'no-new': 'off',

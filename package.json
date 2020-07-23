@@ -1,7 +1,7 @@
 {
   "name": "@lxjx/preset-config",
   "description": "config for lixianjie, includes babel, eslint, prettier, editor, etc",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "main": "index.js",
   "author": "lixianjie",
   "license": "MIT",
@@ -11,8 +11,8 @@
     "lint:prettier": "prettier --check ./example/**/*"
   },
   "dependencies": {
-    "@umijs/fabric": "^2.0.4",
-    "prettier": "^1.19.1"
+    "@umijs/fabric": "2.2.0",
+    "prettier": "^2.0.5"
   },
   "devDependencies": {
     "typescript": "^3.8.3"

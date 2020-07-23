@@ -1,5 +1,5 @@
-const prettier = require.resolve('@umijs/fabric/dist/prettier.js');
+const fabric = require(require.resolve('@umijs/fabric'));
 
 module.exports = {
-  ...require(prettier),
+  ...fabric.prettier,
 };
